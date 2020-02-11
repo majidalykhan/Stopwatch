@@ -76,10 +76,5 @@ public class Stopwatch extends AppCompatActivity {
 
     }
 
-    private void showElapsedTime() {
-        int elapsedMillis = (int) (SystemClock.elapsedRealtime() - 10*1000);
-        Toast.makeText(Stopwatch.this, "Elapsed milliseconds: " + elapsedMillis,
-                Toast.LENGTH_SHORT).show();
-    }
 
 }
