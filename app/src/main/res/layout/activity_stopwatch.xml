@@ -23,11 +23,25 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="@+id/imageView6"
         app:layout_constraintEnd_toEndOf="@+id/imageView6"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="@+id/imageView6"
         app:layout_constraintTop_toTopOf="@+id/imageView6"
-        app:layout_constraintVertical_bias="0.300"
-        app:srcCompat="@drawable/needle" />
+        app:layout_constraintVertical_bias="0.408"
+        app:srcCompat="@drawable/ic_needle"
+        tools:ignore="VectorDrawableCompat" />
+
+    <ImageView
+        android:id="@+id/needlecircle"
+        android:layout_width="15dp"
+        android:layout_height="14dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView6"
+        app:layout_constraintEnd_toEndOf="@+id/imageView6"
+        app:layout_constraintStart_toStartOf="@+id/imageView6"
+        app:layout_constraintTop_toTopOf="@+id/imageView6"
+        app:layout_constraintVertical_bias="0.596"
+        app:srcCompat="@drawable/ic_needlecircle"
+        tools:ignore="VectorDrawableCompat" />
+
+
 
     <ImageView
         android:id="@+id/imageView6"
@@ -39,7 +53,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView"
         app:layout_constraintVertical_bias="0.29"
-        app:srcCompat="@drawable/clock" />
+        app:srcCompat="@drawable/ic_clock"
+        tools:ignore="VectorDrawableCompat" />
 
     <ImageButton
         android:id="@+id/start"

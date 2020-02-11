@@ -27,7 +27,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView"
         app:layout_constraintVertical_bias="0.29"
-        app:srcCompat="@drawable/stopwatch" />
+        app:srcCompat="@drawable/ic_clock"
+        tools:ignore="VectorDrawableCompat" />
 
     <TextView
         android:id="@+id/stopwatchTxt"
